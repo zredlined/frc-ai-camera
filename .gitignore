@@ -1,6 +1,20 @@
 __pycache__/
 *.pyc
+*.pyo
+
 recordings/
 *.h264
+*.mp4
+
+# Uploaded team logo (generated at runtime)
+static/team-logo.png
+
+# Debug artifacts
 *.jpg
 !static/**
+
+# Environment
+.env
+*.log
+venv/
+.venv/
