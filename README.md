@@ -1,6 +1,6 @@
 # FRC Pi Camera Recorder
 
-A streaming camera and clip recorder for FRC robotics data collection.
+A streaming camera and clip recorder for FRC robotics data collection (and streaming).
 
 Built by Nico and Ethan from [FRC 4419 Team Rewind](https://www.thebluealliance.com/team/4419)
 with the help of [OpenAI Codex](https://openai.com/index/openai-codex/).
