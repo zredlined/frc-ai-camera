@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+recordings/
+*.h264
+*.jpg
+!static/**

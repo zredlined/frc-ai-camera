@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2ec4e6"/>
+      <stop offset="100%" stop-color="#d219c8"/>
+    </linearGradient>
+  </defs>
+  <circle cx="110" cy="110" r="108" fill="#ffffff"/>
+  <circle cx="110" cy="110" r="96" fill="none" stroke="url(#g)" stroke-width="10"/>
+  <text x="110" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#2f0a4f">TEAM</text>
+  <text x="110" y="126" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#2f0a4f">4419</text>
+  <text x="110" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#2f0a4f">REWIND</text>
+</svg>

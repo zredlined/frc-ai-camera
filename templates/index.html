@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Team Rewind Camera Recorder</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="ambient one"></div>
+  <div class="ambient two"></div>
+  <main class="page">
+    <header class="hero card">
+      <div class="brand">
+        <img
+          id="teamLogo"
+          class="team-logo"
+          src="/static/team-logo.png"
+          alt="Team Rewind logo"
+          onerror="this.src='/static/team-logo-placeholder.svg'"
+        >
+        <div>
+          <h1>FRC 4419 Team Rewind</h1>
+          <p>Drive + Record + Download clips for Roboflow labeling</p>
+        </div>
+      </div>
+      <label class="upload">
+        <span>Upload Team Logo</span>
+        <input id="logoInput" type="file" accept=".png,.jpg,.jpeg,.webp">
+      </label>
+    </header>
+
+    <section class="grid">
+      <article class="card camera">
+        <div class="title-row">
+          <h2>Live Camera Feed</h2>
+          <span id="recordBadge" class="badge">Idle</span>
+        </div>
+        <div class="preview-wrap">
+          <img id="preview" src="/stream.mjpg" alt="Camera preview">
+        </div>
+
+        <div class="controls">
+          <label for="label">Clip Label</label>
+          <input id="label" type="text" value="yellow_ball" maxlength="64">
+          <div class="buttons">
+            <button id="recordToggleBtn" class="btn primary">Start Recording</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card side">
+        <h2>Status</h2>
+        <p id="statusLine" class="detector-state">Connecting...</p>
+
+        <h2>Recent Clips</h2>
+        <p class="hint">Click download to save recordings directly to this computer.</p>
+        <ul id="clips" class="clip-list"></ul>
+      </article>
+    </section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>
